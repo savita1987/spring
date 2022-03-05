@@ -4690,3 +4690,4 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2022-03-05 14:37:42,697 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-03-05 14:37:42,698 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-03-05 14:37:42,698 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\SpringBootMicroservicesMar2022\WorkspaceMicroservice\basic-security\src\test\resources
+2022-03-05 14:39:48,494 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
