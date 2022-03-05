@@ -1,0 +1,23 @@
+package com.bel.model;
+
+import javax.persistence.Entity;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Entity
+@Data	//For getters and setters
+@NoArgsConstructor
+@AllArgsConstructor
+public class Customer {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long custId;
+	private String custName;
+	
+	@OneToOne(cascade = {CascadeType.ALL, CascadeType.MERGE},mappedBy = "customer")
+	private Product product;
+
+}

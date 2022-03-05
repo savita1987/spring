@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="customer-microservice"/>
+<aop-project name="UserMicroservice"/>
+<aop-project name="EurekaServer"/>
+<aop-project name="Product-Microservice"/>
+<aop-project name="AccountMicroservice"/>
+</aop-reference-model>

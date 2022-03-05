@@ -1,0 +1,6 @@
+package com.bel.service;
+
+@Service
+public class CustomerService {
+
+}

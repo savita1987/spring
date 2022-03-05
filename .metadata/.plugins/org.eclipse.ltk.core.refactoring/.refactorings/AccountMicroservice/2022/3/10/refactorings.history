@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.bel&apos; to &apos;UserMicroservice/src/main/java/com.bel&apos;&#x0D;&#x0A;- Original project: &apos;AccountMicroservice&apos;&#x0D;&#x0A;- Destination element: &apos;UserMicroservice/src/main/java/com.bel&apos;&#x0D;&#x0A;- Original element: &apos;AccountMicroservice/src/main/java/com.bel&apos;" description="Copy package" destination="=UserMicroservice/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.bel" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.bel" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1646306173021" version="1.0"/>
+</session>

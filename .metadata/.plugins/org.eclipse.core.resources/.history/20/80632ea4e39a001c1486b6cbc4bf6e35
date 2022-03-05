@@ -1,0 +1,38 @@
+package com.bel;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+@Service
+
+public class UserService {
+	
+	private List<User> getAccountList(){
+	    List<User> accountList = new ArrayList<>();
+	    accountList.add(new User(101, "SB111", "Bangalore"));
+	    accountList.add(new User(101, "SB555", "Mumbai"));
+	    accountList.add(new User(102, "SB676", "Delhi"));
+	    accountList.add(new User(101, "SB456", "Mumbai"));
+	    accountList.add(new User(101, "SB908", "Kanpur"));
+	    accountList.add(new User(102, "SB123", "Noida"));
+	    accountList.add(new User(103, "SB009", "Bangalore"));
+	    return accountList;
+	  }
+
+	
+	public List<User> findAccountsByEmpId(int empId){
+	    
+		List<User> accountList = getAccountList();
+	    
+	    List<User> empAccountList = new ArrayList<>();
+	    
+	    for(User account :  accountList) {
+	    	
+	      if(account.getEmpId() == (empId))
+	        empAccountList.add(account);
+	    }
+	    return empAccountList;
+	  }
+
+}

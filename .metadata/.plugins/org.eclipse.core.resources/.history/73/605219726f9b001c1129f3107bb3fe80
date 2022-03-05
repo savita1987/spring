@@ -1,0 +1,4 @@
+eureka.client.service-url.default-zone=http://localhost:8716/eureka
+server.port=9000
+#logical name of account  microservice
+spring.application.name=account

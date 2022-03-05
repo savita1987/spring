@@ -1,0 +1,7 @@
+package com.bel;
+
+import com.netflix.zuul.ZuulFilter;
+
+public class SimpleFilter extends ZuulFilter{
+
+}

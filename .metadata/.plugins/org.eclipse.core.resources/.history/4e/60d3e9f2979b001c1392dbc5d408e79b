@@ -1,0 +1,5 @@
+package com.bel.repository;
+
+public class ProductRepository {
+
+}

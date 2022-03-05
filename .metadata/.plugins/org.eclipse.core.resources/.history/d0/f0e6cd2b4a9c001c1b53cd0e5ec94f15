@@ -1,0 +1,5 @@
+package com.bel;
+
+public class SimpleFilter extends ZuulFilter{
+
+}
